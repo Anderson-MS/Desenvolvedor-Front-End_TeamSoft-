@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="pt-br">
+  <header>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.js">          
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>     
+
+
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/53ae199f5a.js" crossorigin="anonymous"></script>    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">  </header>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>TeamSoft!!</title>
+  <body> 
+
+     <header class="nav">
+        <div class="logo">         
+        <img src="img/Deliverize Logo 1.svg" alt="">  
+        <img src="img/Deliverize Logo 1 (2).svg" alt="">
+        </div>   
+
+        <div class="select">  
+          
+          <div class="Endereco">
+            Entrega:
+          </div>                
+          <select name="" id="">
+            <option  value="" style="   font-family: 'Roboto', sans-serif;" >R. Antonio Braune, 222</option>
+            <option value="">R. Antonio Braune, 222 </option>
+            <option value="">R. Antonio Braune, 222</option>
+          </select>      
+        </div> 
+        <div  class="search-box" >
+          <input type="text" class="input " placeholder="Busque por estabelecimento ou produtos" >
+        </div>  
+        <div  class="loga">          
+          <a href="">
+            <i class="far fa-user-circle" style="color:#ED3237" >Entrar</i>
+          </a>        
+        </div>           
+        <div  class="car">
+          <a href="">
+            <i class="fas fa-shopping-cart"  style="color:#ED3237 ">Carrinho</i>
+          </a>        
+        </div>         
+     </header>
+
+      <section class="container">   
+        <div>
+          <img class="foto-lanche" src="img/foto.png" alt="">
+
+          <div class="desktop">
+            <p class="Titulo1">Oferta Picanha Cheddar Bacon</p>
+            <p class="Sub-Titulo1">Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, 
+              queijo cheddar, molho cheddar e pão mix de gergelim</p>
+            <p class="valor">R$31,99 <strong style="color: black; font-family: 'Roboto', sans-serif; "><s> R$34,95</s></strong></p>  
+           </div>  
+
+
+           <!-- Mobile -->
+
+           <div class="mobile">  
+            <p class="Titulo2">Oferta picanha cheddar bacon</p> 
+            <p class="Sub-Titulo2">Delicioso hambúrguer de picanha, molho de picanha, 
+              cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix 
+              de gergelim, acompanhamento e bebida.</p> 
+              <p class="valor">R$31,99 <strong style="color: black; font-family: 'Roboto', sans-serif; "><s> R$34,95</s></strong></p>             
+
+              <div class="border">
+                <div class="txtCardapio">  Adicionar Ingredinte </div>
+                <div class="ingrediente">  Até 8 Ingredientes</div>  
+              </div>
+
+              <div class="txtCardapio">  Queijo cheddar</div>
+              <div class="tab5">
+                <div> 
+                  <p id="buttonAddMobile" class="contadoracrescentarnumeromobile">+</p>
+                  <p id="buttonRemoveMobile" class="contadormenosMobile">-</p>
+                  <p id="carrinhoIndexMobile" class="contadormaismobile">0</p>  
+                </div>               
+              </div>
+              <div class="txtValor">  +R$4,99</div>  
+              <div class="linha1">  </div>  
+
+              <div class="txtCardapio">  Cebola crispy</div> 
+              <div class="tab5">
+                <div> 
+                  <p id="mobileatualadd" class="contadoracrescentarnumeromobile">+</p>
+                  <p id="mobileatualremove" class="contadormenosMobile">-</p>
+                  <p id="mobileatualvalor" class="contadormaismobile">0</p> 
+                </div>     
+              </div>
+              <div class="txtValor">  +R$1,50</div>  
+              <div class="linha1">  </div> 
+
+              <div class="txtCardapio">  Molho cheddar</div>
+              <div class="tab5">
+                <div> 
+                  <p id="mobileatualadd1" class="contadoracrescentarnumeromobile">+</p>
+                  <p id="mobileatualremove1" class="contadormenosMobile">-</p>
+                  <p id="mobileatualvalor1" class="contadormaismobile">0</p>  
+                </div>                
+              </div>
+              <div class="txtValor">  +R$3,50</div>  
+              <div class="linha1">  </div>
+
+              <div class="txtCardapio">  Molho de picanha</div>
+              <div class="tab8">
+                <div> 
+                  <p id="buttonAddMobile1" class="contadoracrescentarnumeromobile1">+</p>
+                  <p id="buttonRemoveMobile1" class="contadormenosMobile1">-</p>
+                  <p id="carrinhoIndexMobile1" class="contadormaismobile1">0</p>  
+                </div>
+              </div>
+              <div class="txtValor">  +R$3,50</div>  
+              <div>  </div>  
+
+              <div class="border">
+                <div class="txtCardapio">  Precisar de Talher</div>                  
+              </div>
+
+                <div class="chnK">Não                 
+                  <div class="click">
+                    <input type="checkbox" id="chkBike" value="on">
+                  </div>
+                </div>
+
+                <div class="chnK1">Sim
+                  <div class="click1">
+                    <input type="checkbox" id="chkBike" value="on">
+                  </div>
+                </div>  
+
+                <div class="tab9">
+                  <div> 
+                    <p id="buttonAddMobile2" class="contadoracrescentarnumeromobile2">+</p>
+                    <p id="buttonRemoveMobile2" class="contadormenosMobile2">-</p>
+                    <p id="carrinhoIndexMobile2" class="resultadomobile2">0</p>  
+                  </div>
+                </div>
+
+              <div>   
+                <button class="btn-add" type="button" form="cadastro" onclick="alert('Produto Adicionado')">
+                  Adicionar    
+                </button>
+              </div>
+             <div class="footer"></div>
+           </div>          
+         </div>  
+        <div>        
+
+
+           <!-- Desktop -->
+          <div class="container1">
+            <div class="containerColor">
+              <div class="txtCardapio">Adicionar Ingredinte</div> 
+              <div class="txtCardapioIngrediente">Até 8 Ingredientes</div>   
+            </div> 
+
+            <div class="txtCardapio">Queijo cheddar</div>
+            <div>
+              <p class="tab3"></p>
+              <p id="valoratualadd" class="contadoracrescentarnumeroatual2"  >+</p>  
+              <p id="valoratualremovido" class="contadormenosatual2">-</p>     
+              <span  id="valoratualinformado" class="contadormaisatual2">0</span></a>
+            </div>          
+            <div class="txtCardapioIngrediente">+R$4,99</div>   
+            <div class="linha"></div>              
+
+            <div class="txtCardapio">Cebola crispy</div> 
+            <div>
+              <p class="tab3"></p>
+              <p id="valoratualadd1" class="contadoracrescentarnumeroatual1"  > +</p>  
+              <p id="valoratualremovido1" class="contadormenosatual1">-</p>     
+              <span id="valoratualinformado1" class="contadormaisatual1">0</span></a>
+            </div>
+            <div class="txtCardapioIngrediente">+R$1,50</div>   
+            <div class="linha"></div>   
+
+                 
+            <div class="txtCardapio">Molho cheddar</div> 
+            <div>
+              <p class="tab3"></p>
+              <p id="buttonAdd" class="contadoracrescentarnumeroatual"  > +</p>  
+              <p id="buttonAddRemover" class="contadormenosatual">-</p>     
+              <span  id="carrinhoIndex" class="contadormaisatual">0</span></a>
+            </div>
+            <div class="txtCardapioIngrediente">+R$3,50</div>   
+            <div class="linha"></div>
+
+
+            <div class="txtCardapio">Molho de picanha</div>             
+            <div>
+              <p class="tab3"></p>
+              <p id="buttonAdd1" class="contadoracrescentarnumero1"  > + </p>  
+              <p id="buttonAddRemover1" class="contadormenos1">-</p>     
+              <span  id="carrinhoIndex1" class="contadormais1">0</span></a> 
+            </div>
+            <div class="txtCardapioIngrediente">+R$3,50</div>              
+            <div class="linha"></div>
+
+
+            <div class="containerColor">
+              <div class="txtCardapio">Precisar de Talher</div> 
+            </div> 
+            
+             <div class="btnAcrescentar">
+              <p id="buttonAddRemover2" class="contadormenos2">-</p>     
+              <span  id="carrinhoIndex2" class="contadormais2">0</span></a>  
+              <p id="buttonAdd2" class="contadoracrescentarnumero2" > + </p> 
+             <div>  
+
+                <button class="submit" >
+                <div id="aparecer1" class="visual">                     
+                    <div class="comprafeita1"> Adicionado com Sucesso </div>
+                    <div class="comprafeita2"> 
+                      <div class="item1">Oferta Cheddar Bacon</div>
+                      <div class="item2">Ingredientes:</div>
+                      <div class="item3">1 Carne 250gr</div>
+                      <div class="item4">2 Queijo Cheddar</div>
+                      <div class="item5">1 Bacon</div>
+                      <div class="item6">Molho Especial</div>
+                    </div>
+                    <div class="seta"></div>                   
+                </div>             
+               <a href="javascript: ver();">Adicionar</a>
+               </button>
+
+               <div>
+             </div>
+            </div>
+           </div>   
+          </section> 
+     <script src="index.js"></script> 
+     <script src="https://kit.fontawesome.com/53ae199f5a.js" crossorigin="anonymous"></script>
+  </body>
+</html>
