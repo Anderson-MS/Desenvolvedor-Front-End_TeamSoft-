@@ -8,6 +8,12 @@ function ver(){
   document.getElementById('aparecer1').style.display = 'block';
 
 }
+$(document).ready(function () {
+  setTimeout(function () {
+      $('#aparecer1').fadeOut(1500);
+  }, 5000);
+});
+
 $(document).ready(function() {
   var count =0;
   var badge = $('#valoratualinformado');
